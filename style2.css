@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: rgba(100,50,100,0.4);
+    height: 100vh;
+}
+.video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+}
+.main{
+    min-height: 100%;
+    background: transparent;
+}
